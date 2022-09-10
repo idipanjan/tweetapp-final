@@ -1,0 +1,48 @@
+.tweetcard__main{
+    
+    background-color: rgba(139, 139, 139, 0.2);
+    padding: 15px;
+    border-radius: 20px;
+    /* border-bottom: 0.1px solid rgba(139, 139, 139, 0.4);; */
+}
+.tweetcard__top{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    color: #ffff;
+}
+
+.tweetcard__middle{
+    padding: 5px 15px;
+    color: #ffff;
+}
+
+
+.tweetcard__bottom{
+    color: #ffff;
+    padding: 5px 15px;
+    font-size: 10px;
+    display: flex;
+    gap:1rem;
+}
+
+.likebtn{
+    cursor: pointer;
+}
+
+.liked{
+    color:rgb(255, 0, 55);
+}
+
+
+/* comment conatiner */
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root:last-of-type{
+    border-radius: 20px !important;
+}
+
+/* comment add button */
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root{
+    padding-left: 0px !important;
+    padding-top: 0px !important;
+    padding-bottom: 19px !important;
+}

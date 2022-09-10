@@ -1,0 +1,102 @@
+.pannel__main{
+    height: 100%;
+    width: 20%;
+    /* border-right: 0.1px solid #ffff; */
+    border-right:0.1px solid rgba(139, 139, 139, 0.4);
+    border-bottom:0.1px solid rgba(139, 139, 139, 0.4); 
+    border-top:0.1px solid rgba(139, 139, 139, 0.4); 
+    border-radius: 0px 20px 20px 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;  
+    min-height: 600px;
+    overflow: hidden;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 5%;
+}
+
+.pannel__wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.pannel__logo{
+    width: 30px;
+}
+
+.pannel__item{
+   
+    width: fit-content;
+    padding:10px 20px;
+    border-radius: 3rem;
+    text-align: center;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.pannel__item:hover{
+    background-color: rgba(133, 133, 133, 0.2);
+    transition: all 0.1s ease-in;
+}
+
+.active{
+    /* background-color: rgba(107, 107, 107, 0.2); */
+    font-weight: 700;
+}
+
+
+.tweet__btn{
+    width: 7rem;
+    padding: 10px;
+    border-radius: 2rem;
+    font-weight: 700;
+    font-size: 0.9rem;
+    background-color: #1D9BF0;
+    color: #ffff;
+    cursor: pointer;
+}
+
+.tweet__btn:hover{
+    filter: brightness(90%);
+    transition: all 0.3s ease-in;
+}
+
+
+.pannel__bottom{
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+
+.logout__btn{
+    background-color:  #ffff;
+    filter: brightness(80%);
+    color: black;
+    right: 30%;
+    width: 6rem;
+    padding: 10px;
+    border-radius: 2rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.logout__btn:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #ffff;
+    transition: all 0.2s ease-in;
+}
+

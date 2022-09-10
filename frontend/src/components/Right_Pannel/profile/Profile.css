@@ -1,0 +1,37 @@
+.profile__main{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.profile__inner{
+    width: 80%;
+    height: 100%;
+    /* height: 70%; */
+    background-color: black;
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    padding-top: 7rem;
+}
+
+
+.profile__tweets{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2rem;
+}
+
+.profile__top{
+   
+    /* background: linear-gradient(to bottom, #f32b60, #ff8f1f); */
+    background: linear-gradient(to bottom, #020408 40%, #09194e);
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+}

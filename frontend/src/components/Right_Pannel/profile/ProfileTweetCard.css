@@ -1,0 +1,41 @@
+.tweetcard__main{
+    
+    background-color: rgba(139, 139, 139, 0.2);
+    padding: 15px;
+    border-radius: 20px;
+}
+.tweetcard__top{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    color: #ffff;
+}
+
+.tweetcard__middle{
+    padding: 5px 15px;
+    color: #ffff;
+}
+
+
+#delete_icon{
+    cursor: pointer;
+}
+
+
+#edit_icon{
+    cursor: pointer;
+}
+
+
+textarea{
+    resize: none;
+    font-size: 1.5rem;
+    background-color: black;
+    color:#ffff;
+    border: none;
+}
+
+textarea:focus{
+    outline: none;
+    border-bottom: 1px solid rgba(139, 139, 139, 0.4);
+}
